@@ -1,0 +1,12 @@
+prefix=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library
+exec_prefix=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library
+libdir=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library/lib
+includedir=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

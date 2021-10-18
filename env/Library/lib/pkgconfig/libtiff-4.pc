@@ -1,0 +1,11 @@
+prefix=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library
+exec_prefix=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library
+libdir=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library/lib
+includedir=c:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.2.0
+Libs: -Lc:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library/lib -ltiff
+Libs.private: 
+Cflags: -Ic:/users/mekus/desktop/stutern tasks/python workshops/car_sales/env/Library/include
